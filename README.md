@@ -27,3 +27,7 @@ All files about my posgraduate project
 - Training, validation, testing on GPU  
 - QAT fine-tuning  
 - Test after deploying on speck2fdevkit  
+
+## Print-availiable hardware models
+
+## Dissertation
