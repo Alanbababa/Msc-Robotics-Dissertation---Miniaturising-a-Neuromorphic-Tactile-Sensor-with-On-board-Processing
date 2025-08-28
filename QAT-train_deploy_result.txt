@@ -1,0 +1,47 @@
+/home/alanliu/PycharmProjects/data_collector/.venv/bin/python /home/alanliu/PycharmProjects/data_collector/edge_orientation_classification_all_surface_planE_fineTuneQuantized.py 
+开始校准(含共同scale约束)...
+校准结束。
+Epoch 0 [Train]: 100%|██████████| 1758/1758 [02:06<00:00, 13.94batch/s]
+Epoch 0 Train Loss: 0.0031, Acc: 99.96%
+Epoch 0 [Val]: 100%|██████████| 375/375 [00:20<00:00, 18.63batch/s]
+Epoch 0 Val   Loss: 0.0055, Acc: 99.80%
+🔖 Saved best QAT model
+Epoch duration: 2.44 min
+
+Epoch 1 [Train]: 100%|██████████| 1758/1758 [02:11<00:00, 13.34batch/s]
+Epoch 1 Train Loss: 0.0014, Acc: 100.00%
+Epoch 1 [Val]: 100%|██████████| 375/375 [00:20<00:00, 17.90batch/s]
+Epoch 1 Val   Loss: 0.0057, Acc: 99.87%
+EarlyStopping: 1/5
+Epoch duration: 2.55 min
+
+Epoch 2 [Train]: 100%|██████████| 1758/1758 [02:14<00:00, 13.10batch/s]
+Epoch 2 Train Loss: 0.0009, Acc: 99.99%
+Epoch 2 [Val]: 100%|██████████| 375/375 [00:21<00:00, 17.84batch/s]
+Epoch 2 Val   Loss: 0.0059, Acc: 99.87%
+EarlyStopping: 2/5
+Epoch duration: 2.59 min
+
+开始校准(含共同scale约束)...
+校准结束。
+Epoch 3 [Train]: 100%|██████████| 1758/1758 [02:16<00:00, 12.90batch/s]
+Epoch 3 Train Loss: 0.0011, Acc: 99.99%
+Epoch 3 [Val]: 100%|██████████| 375/375 [00:21<00:00, 17.84batch/s]
+Epoch 3 Val   Loss: 0.0041, Acc: 99.80%
+🔖 Saved best QAT model
+Epoch duration: 2.63 min
+
+QAT后的模型 Test: 100%|██████████| 382/382 [00:21<00:00, 17.85batch/s]
+🎯 Test Accuracy: 99.80%
+开始校准(含共同scale约束)...
+校准结束。
+参数映射到原始模型 Test（per-tensor+共同scale）: 100%|██████████| 382/382 [00:20<00:00, 18.30batch/s]
+🎯 Test Accuracy: 99.74%
+最终模型已保存（per-tensor + 阈值共同scale约束）
+Network is valid
+The SNN is deployed on the core: [0, 1, 2, 3]
+label: 9, prediction: 9， current ACC：0.9424836601307189， current Avg_Angle_Err：0.7686274509803922， output spikes num: 178: 100%|██████████| 1530/1530 [32:14<00:00,  1.26s/it]
+On chip inference accuracy: 0.9424836601307189， Avg_Angle_Err：0.7686274509803922
+
+进程已结束，退出代码为 0
+
