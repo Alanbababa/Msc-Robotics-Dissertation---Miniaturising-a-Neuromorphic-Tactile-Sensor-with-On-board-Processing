@@ -13,8 +13,7 @@ All files about my posgraduate project
 - Picture drawing  
 
 ## Data
-- Original data  
-- Splited data  
+- Splited data: https://www.kaggle.com/api/v1/datasets/download/alanbababa/test-dataset
 
 ## Models
 - Best model on GPU  
